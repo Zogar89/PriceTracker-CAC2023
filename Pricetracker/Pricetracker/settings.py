@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     #Agregado instalación
 ]
 
-SITE_ID = 1
+SITE_ID = 1 #Agregado instalación
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -131,7 +131,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTHENTICATION_BACKENDS = [
+AUTHENTICATION_BACKENDS = [ #Agregado instalación
     
     # Needed to login by username in Django admin, regardless of `allauth`
     'django.contrib.auth.backends.ModelBackend',
