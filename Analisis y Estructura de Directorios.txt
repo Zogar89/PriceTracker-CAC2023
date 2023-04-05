@@ -1,0 +1,17 @@
+﻿Analisis de sitios similares:
+
+Sitios Analizados:
+
+historial.com.ar #Tracker de precios generalista
+hardgamers.com.ar #Tracker y metabuscador de productos informaticos
+postal.ninja #Tracker de correo postal
+keepa.com #Tracker para amazon
+camelcamelcamel.com #Tracker para amazon
+
+Estructura de directorios
+
+-Home
+	-Tracks #Listado de productos en seguimiento
+		-TrackProduct #Producto seguido con historial de precio. Opciones, pausar, borrar.
+	-Login #Inicio de Sesion
+		-Profile #Edición de perfil de usuario, edición de correo, pausar notificaciones.
