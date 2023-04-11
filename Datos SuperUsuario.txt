@@ -1,3 +1,8 @@
 Username:admin
 Email:admin@admin.com
 Password:admin
+
+Usuario común:
+Username:test
+Email:test@test.com
+Password:testeando
