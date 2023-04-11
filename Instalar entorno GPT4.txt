@@ -1,0 +1,29 @@
+Para exportar el entorno de tu proyecto en Pipenv e instalarlo en otro proyecto, sigue estos pasos:
+
+    Exportar las dependencias del proyecto actual:
+    Primero, asegúrate de estar en la carpeta del proyecto donde tienes el entorno Pipenv. Abre un terminal y ejecuta el siguiente comando para exportar las dependencias del proyecto a un archivo requirements.txt:
+
+    csharp
+
+pipenv lock -r > requirements.txt
+
+Esto creará un archivo requirements.txt en la carpeta del proyecto con todas las dependencias y sus versiones específicas.
+
+Copiar el archivo requirements.txt al nuevo proyecto:
+Copia el archivo requirements.txt recién creado a la carpeta del nuevo proyecto donde deseas instalar el entorno.
+
+Instalar el entorno en el nuevo proyecto:
+Ahora, ve a la carpeta del nuevo proyecto en el terminal y ejecuta el siguiente comando para instalar un entorno Pipenv con las dependencias especificadas en el archivo requirements.txt:
+
+pipenv install -r requirements.txt
+
+Pipenv creará un nuevo entorno virtual e instalará las dependencias especificadas en el archivo requirements.txt.
+
+Activar el entorno virtual:
+Para comenzar a usar el entorno virtual en el nuevo proyecto, activa el entorno virtual con el siguiente comando:
+
+    pipenv shell
+
+    Ahora estás utilizando el entorno virtual con las dependencias importadas del proyecto original. Puedes empezar a trabajar en el nuevo proyecto con el mismo entorno que el proyecto original.
+
+Recuerda que es importante mantener tus entornos virtuales separados para cada proyecto, ya que las dependencias y versiones pueden variar entre ellos.
