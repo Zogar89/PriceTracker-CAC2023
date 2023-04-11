@@ -140,3 +140,5 @@ AUTHENTICATION_BACKENDS = [ #Agregado instalación
     'allauth.account.auth_backends.AuthenticationBackend',
     
 ]
+# Para ver los emails enviados en la consola.
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
