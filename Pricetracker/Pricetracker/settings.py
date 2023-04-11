@@ -142,3 +142,8 @@ AUTHENTICATION_BACKENDS = [ #Agregado instalación
 ]
 # Para ver los emails enviados en la consola.
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Para loguearse por email y que sea forsozo.
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
