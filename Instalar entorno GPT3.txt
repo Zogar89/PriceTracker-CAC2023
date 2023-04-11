@@ -1,13 +1,13 @@
 Para exportar el entorno de tu proyecto pipenv y luego instalarlo en otra computadora, sigue los siguientes pasos:
 
-    Asegúrate de tener pipenv instalado en la computadora de destino. Si no lo tienes, puedes instalarlo ejecutando el comando pip install pipenv en una terminal.
+    Asegurate de tener pipenv instalado en la computadora de destino. Si no lo tienes, puedes instalarlo ejecutando el comando pip install pipenv en una terminal.
 
     Copia los archivos Pipfile y Pipfile.lock de tu proyecto a la computadora de destino.
 
     En la computadora de destino, abre una terminal y navega a la carpeta donde colocaste los archivos Pipfile y Pipfile.lock.
 
-    Ejecuta el comando pipenv install. Esto instalará todas las dependencias que se encuentran en Pipfile.lock.
+    Ejecuta el comando pipenv install. Esto instalara todas las dependencias que se encuentran en Pipfile.lock.
 
-Con estos pasos, habrás exportado e instalado el entorno de tu proyecto pipenv en otra computadora. Ten en cuenta que si alguna de las dependencias de tu proyecto requiere la instalación de bibliotecas de sistema, debes asegurarte de que estas bibliotecas también estén instaladas en la computadora de destino antes de ejecutar pipenv install.
+Con estos pasos, habras exportado e instalado el entorno de tu proyecto pipenv en otra computadora. Ten en cuenta que si alguna de las dependencias de tu proyecto requiere la instalaciï¿½n de bibliotecas de sistema, debes asegurarte de que estas bibliotecas tambiï¿½n estï¿½n instaladas en la computadora de destino antes de ejecutar pipenv install.
 
 **creo que despues de instalar pipenv con solo entrar a la carpeta del proyecto y poner pipevn sync ya te sincroniza todo.**

@@ -1,0 +1,23 @@
+Para iniciar el servidor de Django, sigue los siguientes pasos:
+
+    Abre una terminal o línea de comandos.
+
+    Navega hasta el directorio raíz de tu proyecto Django utilizando el comando cd.
+
+    Una vez que estés en el directorio raíz de tu proyecto Django, ejecuta el siguiente comando:
+
+python manage.py runserver
+
+Este comando iniciará el servidor de desarrollo de Django en tu computadora. Por defecto, el servidor escuchará en la dirección http://127.0.0.1:8000/ (también conocida como localhost), pero puedes especificar un puerto diferente utilizando el siguiente comando:
+
+php
+
+python manage.py runserver <puerto>
+
+Por ejemplo, si quieres que el servidor escuche en el puerto 8080, ejecuta el siguiente comando:
+
+yaml
+
+python manage.py runserver 8080
+
+Una vez que el servidor esté en ejecución, abre tu navegador web y visita la dirección http://127.0.0.1:8000/ (o la dirección que hayas especificado). Deberías ver la página de inicio de tu aplicación web de Django.
