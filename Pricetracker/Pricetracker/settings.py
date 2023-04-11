@@ -144,6 +144,7 @@ AUTHENTICATION_BACKENDS = [ #Agregado instalación
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Para loguearse por email y que sea forsozo.
-ACCOUNT_AUTHENTICATION_METHOD = 'email'
-ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+ACCOUNT_AUTHENTICATION_METHOD = 'email' #Loguin x email y no username.
+ACCOUNT_EMAIL_REQUIRED = True   # Obligatorio pedir email
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory' #Obligatorio verificar email.
+ACCOUNT_LOGOUT_ON_GET = True #Sin pantalla confirmación logout.
