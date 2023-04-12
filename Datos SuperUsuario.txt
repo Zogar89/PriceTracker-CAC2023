@@ -1,8 +1,10 @@
+python manage.py createsuperuser
+
 Username:admin
 Email:admin@admin.com
 Password:admin
 
-Usuario común:
+Usuario comÃºn:
 Username:test
 Email:test@test.com
 Password:testeando
