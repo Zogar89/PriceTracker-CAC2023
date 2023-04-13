@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 django-allauth = "*"
+python-dotenv = "*"
+requests = "*"
 
 [dev-packages]
 
